@@ -1,0 +1,52 @@
+.recent-match-li-container{
+    list-style-type: none;
+    background-color: black;
+    padding: 20px;
+    margin: 20px;
+    width: 25%;
+    height: 55vh;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+
+}
+.each-match-opponent-team-logo{
+    width: 140px;
+    margin-top: 30px;
+}
+.green{
+    color: green;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+.red{
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+}
+.kkr-logo{
+    width: 90px;
+}
+/* 770 */
+@media (max-width:1100px) {
+    .recent-match-li-container{
+        width: 36%;
+        margin: 5px;
+        height: 48vh;
+    }
+    .each-match-opponent-team-logo{
+        width: 100px;
+        margin-top: 15px;
+    }
+    .h2-headings{
+        text-align: center;
+        font-size: 20px;
+    }
+    .result{
+        text-align: center;
+    }
+}
